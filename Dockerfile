@@ -20,6 +20,7 @@ RUN apt-get update \
     apt-utils \
     dumb-init \
     pkg-config \
+    nmap \
     python3-pip \
     build-essential \
     dirb \
