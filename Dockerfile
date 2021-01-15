@@ -21,7 +21,6 @@ RUN apt-get update \
     dumb-init \
     pkg-config \
     nmap \
-    masscan \
     python3-pip \
     build-essential \
     dirb \
