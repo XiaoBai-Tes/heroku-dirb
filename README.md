@@ -1,2 +1,2 @@
 # heroku-dirb
-use dirb on heroku
+You can run dirb,dirsearch on heroku
