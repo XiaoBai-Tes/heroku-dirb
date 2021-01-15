@@ -42,8 +42,8 @@ RUN curl -SsL https://github.com/boxboat/fixuid/releases/download/v0.4/fixuid-0.
     mkdir -p /etc/fixuid && \
     printf "user: coder\ngroup: coder\n" > /etc/fixuid/config.yml
   
-RUN pip3 install Flask
-RUN git clone https://github.com/maurosoria/dirsearch && cd dirsearch && pip3 install -r requirements.txt
+RUN pip3 install Flaskln -s ln -s〜/ dirsearch / dirsearch.py dirsearch
+RUN cd / && git clone https://github.com/maurosoria/dirsearch && cd dirsearch && pip3 install -r requirements.txt && cd /bin && ln -s ln -s〜/dirsearch/dirsearch.py dirsearch
     
 ENV PORT=5000
 EXPOSE 5000
