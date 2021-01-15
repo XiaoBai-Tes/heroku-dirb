@@ -3,7 +3,7 @@
   "name": "heroku-dirb",
   "description": "Run dirb on heroku",
   "repository": "https://github.com/2838778326/heroku-dirb",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+  "logo": "",
   "keywords": ["heroku", "dirb"],
   "stack": "container"
 }
