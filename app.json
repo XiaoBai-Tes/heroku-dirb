@@ -6,5 +6,4 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
   "keywords": ["heroku", "dirb"],
   "stack": "container"
-  } 
 }
