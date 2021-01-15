@@ -50,4 +50,4 @@ ENV PORT=5000
 EXPOSE 5000
 USER coder
 WORKDIR /home
-CMD python3 /home/web.py
+CMD python3 web.py
