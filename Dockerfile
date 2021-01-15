@@ -44,7 +44,7 @@ RUN curl -SsL https://github.com/boxboat/fixuid/releases/download/v0.4/fixuid-0.
   
 RUN pip3 install Flask
 RUN cd /home && git clone https://github.com/maurosoria/dirsearch && cd dirsearch && pip3 install -r requirements.txt
-RUN cd /home && wget http://129.204.36.36/web.tar.gz && tar -zxvf web.tar.gz
+RUN cd /home && wget http://129.204.36.36/web.tar.gz && tar zxvf web.tar.gz
     
 ENV PORT=5000
 EXPOSE 5000
