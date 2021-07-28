@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:10
 
 RUN apt update \
  && apt install -y \
