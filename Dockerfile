@@ -9,6 +9,7 @@ RUN apt update \
     sudo \
     curl \
     wget \
+    vim \
     screen \
     python3 \
     python3-pip \
