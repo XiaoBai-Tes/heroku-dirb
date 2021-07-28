@@ -28,12 +28,6 @@ RUN apt update \
     dirb \
   && rm -rf /var/lib/apt/lists/*
 
-# https://wiki.debian.org/Locale#Manually
-RUN sed -i "s/# en_US.UTF-8/en_US.UTF-8/" /etc/locale.gen \
-  && locale-gen
-ENV LANG=en_US.UTF-8
-
-RUN chsh -s /bin/bash
 ENV SHELL=/bin/bash
 
 RUN curl -SsL https://github.com/boxboat/fixuid/releases/download/v0.4/fixuid-0.4-linux-amd64.tar.gz | tar -C /usr/local/bin -xzf - && \
