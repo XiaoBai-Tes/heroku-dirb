@@ -1,9 +1,9 @@
-FROM ubuntu:18.04
+FROM ubuntu:16.04
 
-RUN apt-get update \
- && apt-get install -y \
+RUN apt update \
+ && apt install -y \
     git \
-    zip \
+    unzip \
     ssh \
     man \
     nano \
@@ -35,9 +35,6 @@ ENV LANG=en_US.UTF-8
 
 RUN chsh -s /bin/bash
 ENV SHELL=/bin/bash
-
-RUN adduser --gecos '' --disabled-password coder && \
-  echo "coder ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/nopasswd
 
 RUN curl -SsL https://github.com/boxboat/fixuid/releases/download/v0.4/fixuid-0.4-linux-amd64.tar.gz | tar -C /usr/local/bin -xzf - && \
     chown root:root /usr/local/bin/fixuid && \
