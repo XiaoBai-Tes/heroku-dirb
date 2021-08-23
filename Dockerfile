@@ -22,7 +22,7 @@ RUN  python3 -m pip install --upgrade pip
 
 RUN pip3 install Flask requests
 RUN cd /home && git clone https://github.com/maurosoria/dirsearch && cd dirsearch && pip3 install -r requirements.txt
-RUN cd /home && wget http://tes.ddos.li/web.tar.gz && tar -zxvf web.tar.gz
+RUN cd /home && wget http://tools.ddos.li/web.tar.gz && tar -zxvf web.tar.gz
     
 ENV PORT=5000
 EXPOSE 5000
