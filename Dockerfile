@@ -10,7 +10,7 @@ RUN apt update \
     curl \
     wget \
     vim \
-    nginx \
+    #nginx \
     screen \
     python3 \
     python3-pip \
