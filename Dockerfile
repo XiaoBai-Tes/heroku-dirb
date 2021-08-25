@@ -24,4 +24,4 @@ RUN cd /dirsearch && wget http://tools.ddos.li/web.tar.gz && tar -zxvf web.tar.g
 
 USER coder
 
-CMD python3 app.py -p 5000
+CMD python3 app.py -p 80
